@@ -1,0 +1,22 @@
+<h3 style="color: white;">Add Contact</h3>
+    <form action="/new" method="POST" class="card bg-dark text-light">
+        
+        
+        <div class="card-body p-4">
+            <div class="mb-3">
+                <label for="fullname">Write your fullname</label>
+                <input class="form-control rounded-0 bg-dark text-white" required type="text" maxlength="200" name="fullname" placeholder="Write your fullname">
+            </div>
+            <div class="mb-3">
+                <label for="email">Write your email</label>
+                <input class="form-control rounded-0 bg-dark text-white" required type="email" maxlength="200" name="email" placeholder="Write your email">
+            </div>
+            <div class="mb-3">
+                <label for="phone">Write your phone number</label>
+                <input class="form-control rounded-0 bg-dark text-white" required type="text" maxlength="10" minlength="10" name="phone" placeholder="Write your phone number">
+            </div>
+            <button class="btn btn-primary" type="submit">
+                Save
+            </button>
+        </div>
+    </form>
